@@ -316,6 +316,22 @@ section {
      font-size: x-large;
 }
 
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.darkmode-container{
+    font-weight: 600;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+
+
+
 
 
 
