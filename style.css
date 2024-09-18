@@ -316,18 +316,18 @@ section {
      font-size: x-large;
 }
 
-.dark-mode{
-    background-color: black;
-    color: white;
+/* CODING PROJECTS SECTION */
+
+#coding {
+    position: relative;
 }
 
-.darkmode-container{
-    font-weight: 600;
-    padding: 1rem;
-    width: 8rem;
-    border-radius: 2rem;
-    cursor: pointer;
+.coding-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
+
 
 
 
