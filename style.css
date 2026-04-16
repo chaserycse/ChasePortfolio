@@ -313,20 +313,50 @@ section {
 
 .text-container {
     text-align: center;
-     font-size: x-large;
+    font-size: x-large;
 }
 
-/* CODING PROJECTS SECTION */
+/* EXPERIENCE SECTION */
 
-#coding {
+#experience {
     position: relative;
 }
 
-.coding-containers {
-    gap: 2rem;
+.experience-sub-title {
+    color: rgb(85,85,85);
+    font-weight: 600;
+    font-size: 1.75rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
 }
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+article .icon {
+    cursor: default;
+}
+
+
+
 
 
 
